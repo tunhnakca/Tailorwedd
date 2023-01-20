@@ -1,0 +1,193 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Small: 300
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 0.9
+Medium: 
+Paragraph default: 1.7 - 1.6 
+Large: 
+
+- Letter spacing
+-0.1rem
+0.2rem
+
+--- 02 COLORS
+
+- Primary: #ffe8cc
+- Tints:
+#fffaf5
+
+
+- Shades: 
+#ccbaa3
+#998b7a
+#191714
+
+#1c1c20
+
+
+- Accents:
+- Greys
+
+#555
+#333
+#222
+#aaa
+#bbb
+
+
+--- 05 SHADOWS
+
+
+
+--- 06 BORDER-RADIUS
+
+Default:
+Medium: 
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Roboto Slab", serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 600;
+  color: #191714;
+  letter-spacing: -0.1rem;
+}
+
+.heading-primary {
+  font-size: 9.8rem;
+  line-height: 0.9;
+  margin-bottom: 4.8rem;
+}
+
+.heading-secondary {
+  font-size: 6.3rem;
+  line-height: 0.9;
+  margin-bottom: 8rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #998b7a;
+  margin-bottom: 1.6rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 2.4rem 3.2rem;
+  background-color: #191714;
+  color: #fff;
+  font-weight: 300;
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #665d52;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+*:focus {
+  outline: none;
+  /* Default */
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.7);
+}
+
+/* HELPER/SETTINGS CLASSES */
+
+.center-text {
+  text-align: center;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}

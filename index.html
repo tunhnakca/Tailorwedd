@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="
+    Tailorwedd is a tailor company that provides professional service to its customers. The company only provides services on wedding dresses."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Tailorwedd &#124; Tailor service</title>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a class="logo" href="#"> Tailorwedd</a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#how">How it works</a></li>
+            <li><a class="main-nav-link" href="#gallery">Gallery</a></li>
+          </ul>
+
+          <ul class="main-nav-list main-nav-list-social">
+            <li>
+              <a
+                class="main-nav--social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><ion-icon
+                  class="main-nav--social-icon"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="main-nav--social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                ><ion-icon
+                  class="main-nav--social-icon"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="main-nav--social-link"
+                href="https://www.twitter.com/"
+                target="_blank"
+                ><ion-icon
+                  class="main-nav--social-icon"
+                  name="logo-twitter"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <h1 class="heading-primary center-text">
+            Tailor-made professional wedding dress service
+          </h1>
+          <div class="hero-img-box">
+            <p class="hero-small-texts hero-small-text--left">
+              Scroll <br />
+              down
+            </p>
+            <img
+              src="img/hero.jpg"
+              class="hero-img"
+              alt="A lady in wedding dress"
+            />
+            <p class="hero-small-texts hero-small-text--right">
+              Based in <br />
+              Istanbul,tr
+            </p>
+          </div>
+          <div class="hero-big-text-box container" id="about">
+            <h6 class="subheading">Who we are</h6>
+            <p class="hero-text">
+              Hey, we're Tailorwedd &mdash; tailors based in Istanbul. Our
+              service is to professionally design a custom wedding dress and
+              make it ready for use.
+            </p>
+          </div>
+          <div class="hero-sub-text-box container">
+            <p class="hero-sub-text">
+              We bring our valued customers together with the most suitable
+              wedding dresses and while doing this, we offer you a completely
+              professional service. One more thing! We are aware of climate
+              change and evaluate all stages accordingly. We offer you the
+              products we use in recyclable form.
+            </p>
+            <a class="btn justify-self-end" href="#how">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <h6 class="subheading">How it works</h6>
+          <h2 class="heading-secondary">
+            Your wedding dress is ready in 3 simple steps
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Contact us</h3>
+            <p class="step-description">
+              Just contact us and get your convenient appointment time! After
+              that, all you have to do is wait for your appointment. Our team
+              will prepare everything necessary for you.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/step-01.jpg"
+              class="step-img"
+              alt="A white mannequine"
+            />
+          </div>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-img-box">
+            <img
+              src="img/step-02.jpg"
+              class="step-img"
+              alt="A white mannequine"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Come to your appointment</h3>
+            <p class="step-description">
+              Just drop by us at your special time! We've already prepared
+              everything for you in advance. Your wedding dress will be prepared
+              by our professional team in line with all your wishes.
+            </p>
+          </div>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Everything is ready</h3>
+            <p class="step-description">
+              Your wedding dress is already prepared! When your wedding dress is
+              ready, our team will contact you and deliver your wedding dress.
+              Moreover, if your wedding dress does not fit on you as you want,
+              our care service is free of charge.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/step-03.jpg"
+              class="step-img step-img-03"
+              alt="A white mannequine"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-gallery" id="gallery">
+        <div class="container gallery-container">
+          <h6 class="subheading">Gallery</h6>
+          <h2 class="heading-secondary gallery-heading">
+            All of our customers are satisfied! Here are photos from our users
+          </h2>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/Gallery/gallery-2.jpg"
+              alt="A photo from our customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Gallery/gallery-3.jpg"
+              alt="A photo from our customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Gallery/gallery-4.jpg"
+              alt="A photo from our customer"
+            />
+          </figure>
+        </div>
+        <p class="gallery-sub-info">
+          &mdash; Photos are updated every week &mdash;
+        </p>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container cta-container">
+          <div class="cta">
+            <h2 class="heading-secondary center-text">
+              Get in touch with one click, we have the rest
+            </h2>
+            <p class="cta-sub-text center-text">You're in the right place</p>
+            <div class="center-text">
+              <a class="btn" href="#contact">Get your appointment</a>
+            </div>
+            <div class="cta-contact-cards" id="contact">
+              <div class="contact-card contact-card-left">
+                <ion-icon
+                  class="contact-card-icon"
+                  name="mail-outline"
+                ></ion-icon>
+                <p class="contact-card-text">Email Us</p>
+                <address>
+                  <a
+                    class="contact-card-link"
+                    href="mailto:contact@tailorwedd.com"
+                    >contact@tailorwedd.com</a
+                  >
+                </address>
+              </div>
+              <div class="contact-card contact-card-right">
+                <ion-icon
+                  class="contact-card-icon"
+                  name="call-outline"
+                ></ion-icon>
+                <p class="contact-card-text">Call Us</p>
+                <address>
+                  <a class="contact-card-link" href="tel:(123) 456-7890"
+                    >(123) 456-7890</a
+                  >
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid grid-footer">
+          <div class="logo-col">
+            <a class="footer-logo" href="#">Tailorwedd</a>
+            <address class="contacts">
+              <p class="address">
+                123 Fake Address Rd. Beyoglu, <br />
+                Istanbul 54321 Turkey
+              </p>
+              <p>
+                <a class="footer-link" href="tel:(123) 456-7890"
+                  >(123) 456-7890</a
+                ><br />
+                <a class="footer-link" href="mailto:contact@tailorwedd.com"
+                  >contact@tailorwedd.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Info</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> Home</a></li>
+              <li><a class="footer-link" href="#about"> About</a></li>
+              <li><a class="footer-link" href="#"> Careers</a></li>
+              <li><a class="footer-link" href="#cta"> Contact</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> Help Center</a></li>
+              <li><a class="footer-link" href="#"> Privacy & terms</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Follow us</p>
+            <ul class="footer-nav">
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                >
+                  Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                >
+                  Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                >
+                  Youtube</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <p class="copyright">
+          Copyright &copy; <span class="year">2025</span> by Tailorwedd, Inc.
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
